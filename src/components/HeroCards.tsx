@@ -1,5 +1,4 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -9,9 +8,9 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
+import { Check, Linkedin, YoutubeIcon } from "lucide-react";
 import { LightBulbIcon } from "./Icons";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (
@@ -70,6 +69,18 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
+              href="https://instagram.com/enigma.mu"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">Github icon</span>
+              <InstagramLogoIcon className="w-5 h-5" />
+            </a>
+            <a
+              rel="noreferrer noopener"
               href="https://in.linkedin.com/company/mu-enigma"
               target="_blank"
               className={buttonVariants({
@@ -79,6 +90,18 @@ export const HeroCards = () => {
             >
               <span className="sr-only">Linkedin icon</span>
               <Linkedin size="20" />
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="https://youtube.com/@muenigma"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">Github icon</span>
+              <YoutubeIcon className="w-5 h-5" />
             </a>
           </div>
         </CardFooter>
