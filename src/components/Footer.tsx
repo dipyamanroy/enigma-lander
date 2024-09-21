@@ -1,5 +1,3 @@
-import { LogoIcon } from "./Icons";
-
 export const Footer = () => {
   return (
     <footer id="footer">
@@ -12,8 +10,7 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            Enigma
           </a>
         </div>
 
@@ -22,7 +19,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/MU-Enigma"
               className="opacity-60 hover:opacity-100"
             >
               Github
@@ -32,86 +29,53 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://instagram.com/enigma.mu"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              Instagram
             </a>
           </div>
-
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://in.linkedin.com/company/mu-enigma"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Web
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
+              Linkedin
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">About</h3>
+
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#about"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              About
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#features"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              What We Do
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#team"
               className="opacity-60 hover:opacity-100"
             >
-              FAQ
+              Meet The Team
             </a>
           </div>
         </div>
@@ -121,7 +85,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://youtube.com/@mu-enigma"
               className="opacity-60 hover:opacity-100"
             >
               Youtube
@@ -131,35 +95,26 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://discord.gg/5eJwmkV"
               className="opacity-60 hover:opacity-100"
             >
               Discord
             </a>
           </div>
 
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
-            </a>
-          </div>
         </div>
       </section>
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2024 Enigma landing page made by{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="https://www.linkedin.com/in/dipyamanroy/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Dipyaman Roy
           </a>
         </h3>
       </section>

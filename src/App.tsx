@@ -8,7 +8,7 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
-import { Testimonials } from "./components/Testimonials";
+// import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
       <About />
       <Features />
       <Services />
-      <Testimonials />
       <Team />
       <FAQ />
       <Footer />

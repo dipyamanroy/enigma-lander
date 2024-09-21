@@ -16,7 +16,6 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -25,16 +24,16 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "#about",
+    label: "About Us",
+  },
+  {
     href: "#features",
-    label: "Features",
+    label: "What We Do",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#pricing",
-    label: "Pricing",
+    href: "#team",
+    label: "Meet The Team",
   },
   {
     href: "#faq",
@@ -54,8 +53,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              ShadcnUI/React
+              Enigma
             </a>
           </NavigationMenuItem>
 
@@ -79,7 +77,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Enigma
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -96,7 +94,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://github.com/MU-Enigma/"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
@@ -129,7 +127,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/MU-Enigma"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >

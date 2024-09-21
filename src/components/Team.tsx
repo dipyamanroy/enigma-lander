@@ -23,13 +23,32 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "https://i.ibb.co/BwJ8WwF/Screenshot-from-2024-09-22-01-51-07.png",
+    name: "Ponnam Adithya Sai",
+    position: "President",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "",
+      },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/X2yMzZm/Screenshot-from-2024-09-22-01-46-08.png",
+    name: "Cherith Reddy Yerabolu",
+    position: "Vice President",
+    socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "",
       },
       {
         name: "Facebook",
@@ -42,32 +61,13 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: "https://i.ibb.co/7kJtmpH/Screenshot-from-2024-09-22-01-48-56.png",
+    name: "Aarnav Tandava",
+    position: "Logistics and Committees Head",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "",
       },
 
       {
@@ -77,13 +77,13 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
+    imageUrl: "https://i.ibb.co/nPXG5HG/Screenshot-from-2024-09-22-01-52-45.png",
+    name: "H Ravi Sankar",
+    position: "AI / ML Head",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "",
       },
       {
         name: "Facebook",
@@ -113,15 +113,14 @@ export const Team = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
+      Who
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Our Dedicated{" "}
+        {" "}We Are{" "}
         </span>
-        Crew
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Meet the Team for 2024-25
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">

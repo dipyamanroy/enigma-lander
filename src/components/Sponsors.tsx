@@ -1,55 +1,38 @@
-import { Radar } from "lucide-react";
-
 interface SponsorProps {
-  icon: JSX.Element;
+  logoUrl: string; // URL for the logo image
   name: string;
 }
 
 const sponsors: SponsorProps[] = [
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 1",
+    logoUrl: "https://www.mozilla.org/media/img/trademarks/mozilla-logo-tm.731d4dab7347.svg", // Replace with actual URL
+    name: "Mozilla",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 2",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/7/78/Ubisoft_logo.svg", // Example for another sponsor
+    name: "Ubisoft",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 3",
+    logoUrl: "https://static.wikia.nocookie.net/nitrome/images/9/96/Nitrome_logo_with_Cuboy.png",
+    name: "Nitrome",
   },
   {
-    icon: <Radar size={34} />,
+    logoUrl: "https://www.iiitg.ac.in/uploads/2023/08/05/20e3b14ce6d06b96610a3e655648ec31.png",
     name: "Sponsor 4",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 5",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
   },
 ];
 
 export const Sponsors = () => {
   return (
-    <section
-      id="sponsors"
-      className="container pt-24 sm:py-32"
-    >
+    <section id="sponsors" className="container pt-24 sm:py-32">
       <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary">
-        Investors and founders
+        Past collaborations
       </h2>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
-        {sponsors.map(({ icon, name }: SponsorProps) => (
-          <div
-            key={name}
-            className="flex items-center gap-1 text-muted-foreground/60"
-          >
-            <span>{icon}</span>
-            <h3 className="text-xl  font-bold">{name}</h3>
+        {sponsors.map(({ logoUrl, name }: SponsorProps) => (
+          <div key={name} className="flex items-center gap-1 text-muted-foreground/60">
+            <img src={logoUrl} alt={`${name} logo`} className="h-20 w-21" /> {/* Adjust size as needed */}
           </div>
         ))}
       </div>

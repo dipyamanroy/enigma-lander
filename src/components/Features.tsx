@@ -47,7 +47,7 @@ export const Features = () => {
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Here's what to look for in our club
+        Here's what to look for when you join Enigma or attend an event
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

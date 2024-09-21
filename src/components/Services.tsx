@@ -12,20 +12,20 @@ const serviceList: ServiceProps[] = [
   {
     title: "Code Collaboration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Enigma's open source contributions and community presence is unparalleled, with 20+ projects completed and 1K+ PRs merged on GitHub.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Machines and Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <WalletIcon />,
+      "Our members take care of a lot of critical university infrastructure like enterprise servers and parallel-computing clusters.",
+    icon: <MagnifierIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Placement Advice and Connections",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <MagnifierIcon />,
+      "Along with our alumni, we provide opportunities to connect with people all over the world, and exchange valuable experiences.",
+    icon: <WalletIcon />,
   },
 ];
 
@@ -35,15 +35,15 @@ export const Services = () => {
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
+            What 
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              {" "}We Give{" "}
             </span>
-            Services
+            Back
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Here's what we provide as services to the tech and casual community
           </p>
 
           <div className="flex flex-col gap-8">
