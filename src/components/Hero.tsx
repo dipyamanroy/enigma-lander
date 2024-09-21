@@ -20,7 +20,7 @@ export const Hero = () => {
               Enigma
             </span>{" "}
           </h2>
-          <h3>
+          <h3 className="text-4xl">
             We are Computer Science
           </h3>
         </main>
@@ -30,17 +30,18 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
-
+          <a href="#about" className="w-full md:w-1/3">
+            <Button className="w-full md:w-1/3">About Us</Button>
+          </a>
           <a
             rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+            href="https://github.com/MU-Enigma"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}
           >
-            Github Repository
+            Github
             <GitHubLogoIcon className="ml-2 w-5 h-5" />
           </a>
         </div>
