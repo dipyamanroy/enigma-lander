@@ -107,15 +107,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Enigma landing page made by{" "}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href="https://www.linkedin.com/in/dipyamanroy/"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            Dipyaman Roy
-          </a>
+          &copy; 2024 Enigma
         </h3>
       </section>
     </footer>
