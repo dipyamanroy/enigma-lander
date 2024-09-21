@@ -1,10 +1,10 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "enigma",
+  "description": "The Computer Science Club, Mahindra University",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Dipyaman Roy",
+    "email": "droy@duck.com",
+    "url": "https://github.com/dipyamanroy"
   },
   "license": "MIT",
   "keywords": [
