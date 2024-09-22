@@ -13,7 +13,7 @@ const sponsors: SponsorProps[] = [
     name: "Ubisoft",
   },
   {
-    logoUrl: "https://upload.wikimedia.org/wikipedia/sco/2/21/Nvidia_logo.svg",
+    logoUrl: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-blk-500x200-4c25-d@2x.png",
     name: "NVIDIA",
   },
   {
