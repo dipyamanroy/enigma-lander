@@ -10,7 +10,7 @@ export const Footer = () => {
               href="/"
               className="font-bold text-xl flex items-center"
             >
-              <img src="/src/assets/icon_trans.png" alt="Logo" className="h-10 w-10 mr-2" />
+              <img src="https://i.ibb.co/0mN0h4n/icon-trans.png" alt="Logo" className="h-10 w-10 mr-2" />
               Enigma
           </a>
         </div>
