@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { DiscordLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
@@ -9,10 +9,8 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              We
-            </span>{" "}
-            are
+            
+              We are
           </h1>{" "}
           {" "}
           <h2 className="inline">
@@ -21,7 +19,10 @@ export const Hero = () => {
             </span>{" "}
           </h2>
           <h3 className="text-4xl">
-            We are Computer Science
+            We are {" "}
+            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+              Computer Science
+            </span>{" "}
           </h3>
         </main>
 
@@ -35,14 +36,14 @@ export const Hero = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://github.com/MU-Enigma"
+            href="https://discord.gg/5eJwmkV"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}
           >
-            Github
-            <GitHubLogoIcon className="ml-2 w-5 h-5" />
+            Join us on Discord
+            <DiscordLogoIcon className="ml-2 w-5 h-5" />
           </a>
         </div>
       </div>
