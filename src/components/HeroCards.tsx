@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Check, Linkedin, YoutubeIcon } from "lucide-react";
 import { LightBulbIcon } from "./Icons";
-import { GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
+import { DiscordLogoIcon, GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (
@@ -55,6 +55,18 @@ export const HeroCards = () => {
 
         <CardFooter>
           <div>
+          <a
+              rel="noreferrer noopener"
+              href="https://discord.gg/5eJwmkV"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">Discord icon</span>
+              <DiscordLogoIcon className="w-5 h-5" />
+            </a>
             <a
               rel="noreferrer noopener"
               href="https://github.com/MU-Enigma"
