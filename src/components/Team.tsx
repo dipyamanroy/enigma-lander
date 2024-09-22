@@ -26,19 +26,7 @@ const teamList: TeamProps[] = [
     imageUrl: "https://i.ibb.co/BwJ8WwF/Screenshot-from-2024-09-22-01-51-07.png",
     name: "Ponnam Adithya Sai",
     position: "President",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "",
-      },
-      {
-        name: "Facebook",
-        url: "",
-      },
-      {
-        name: "Instagram",
-        url: "",
-      },
+    socialNetworks: [ 
     ],
   },
   {
@@ -46,34 +34,14 @@ const teamList: TeamProps[] = [
     name: "Cherith Reddy Yerabolu",
     position: "Vice President",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
     ],
   },
   {
-    imageUrl: "https://i.ibb.co/7kJtmpH/Screenshot-from-2024-09-22-01-48-56.png",
+    imageUrl: "https://i.ibb.co/Wp4jmty/image.png",
     name: "Aarnav Tandava",
     position: "Logistics and Committees Head",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "",
-      },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      
     ],
   },
   {
@@ -81,14 +49,55 @@ const teamList: TeamProps[] = [
     name: "H Ravi Sankar",
     position: "AI / ML Head",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/dP0HPdr/image.png",
+    name: "Sai Tarun Vemuganti",
+    position: "CompCoding Head",
+    socialNetworks: [
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/D9c29bB/image.png",
+    name: "Anirudh Chamarthi",
+    position: "SysAdmin",
+    socialNetworks: [
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/mB4qJLq/image.png",
+    name: "Monisha Kollipara",
+    position: "Research and Innovation Head",
+    socialNetworks: [
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/g4GP9LV/image.png",
+    name: "Pericherla Tejas Varma",
+    position: "GameDev Head",
+    socialNetworks: [
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/SxhZJBN/image.png",
+    name: "Rishi Varma Vegesna",
+    position: "Content Head",
+    socialNetworks: [
+      
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/mChpWHG/image.png",
+    name: "Geethika Choudhary Yadlapalli",
+    position: "Marketing & Design Head",
+    socialNetworks: [
+      
     ],
   },
 ];
@@ -125,10 +134,10 @@ export const Team = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
         {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+          ({ imageUrl, name, position, socialNetworks }: TeamProps, index) => (
             <Card
               key={name}
-              className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              className={`bg-muted/50 relative mt-8 flex flex-col justify-center items-center ${index <= teamList.length - 9 ? "lg:col-span-2" : ""}`}            
             >
               <CardHeader className="mt-8 flex justify-center items-center pb-2">
                 <img
@@ -141,10 +150,6 @@ export const Team = () => {
                   {position}
                 </CardDescription>
               </CardHeader>
-
-              <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </CardContent>
 
               <CardFooter>
                 {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
