@@ -51,8 +51,9 @@ export const Navbar = () => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-xl flex items-center"
             >
+              <img src="/src/assets/icon_trans.png" alt="Logo" className="h-10 w-10 mr-2" />
               Enigma
             </a>
           </NavigationMenuItem>

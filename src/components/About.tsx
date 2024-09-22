@@ -20,7 +20,7 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Enigma
+                Us
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 Enigma is the Computer Science club at Mahindra University, dedicated to fostering a passion for technology and innovation among students. Established in 2017, it is also the university's oldest continuously running student community. The club provides a platform for tech enthusiasts to explore areas like programming, cybersecurity, AI, and more. Through hands-on workshops, hackathons, coding competitions, and expert talks, Enigma helps students develop problem-solving skills and stay up-to-date with cutting-edge technologies.

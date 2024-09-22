@@ -6,11 +6,12 @@ export const Footer = () => {
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
           <a
-            rel="noreferrer noopener"
-            href="/"
-            className="font-bold text-xl flex"
-          >
-            Enigma
+              rel="noreferrer noopener"
+              href="/"
+              className="font-bold text-xl flex items-center"
+            >
+              <img src="/src/assets/icon_trans.png" alt="Logo" className="h-10 w-10 mr-2" />
+              Enigma
           </a>
         </div>
 
