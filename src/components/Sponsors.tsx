@@ -13,12 +13,24 @@ const sponsors: SponsorProps[] = [
     name: "Ubisoft",
   },
   {
+    logoUrl: "https://upload.wikimedia.org/wikipedia/sco/2/21/Nvidia_logo.svg",
+    name: "NVIDIA",
+  },
+  {
     logoUrl: "https://static.wikia.nocookie.net/nitrome/images/9/96/Nitrome_logo_with_Cuboy.png",
     name: "Nitrome",
   },
   {
     logoUrl: "https://www.iiitg.ac.in/uploads/2023/08/05/20e3b14ce6d06b96610a3e655648ec31.png",
-    name: "Sponsor 4",
+    name: "GSDC",
+  },
+  {
+    logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/800px-RedBullEnergyDrink.svg.png",
+    name: "RedBull",
+  },
+  {
+    logoUrl: "https://upload.wikimedia.org/wikipedia/en/f/f9/Indian_Institute_of_Technology_Ropar_logo.png",
+    name: "IIT Ropar",
   },
 ];
 
