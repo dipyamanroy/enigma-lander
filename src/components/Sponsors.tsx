@@ -29,8 +29,8 @@ const sponsors: SponsorProps[] = [
     name: "RedBull",
   },
   {
-    logoUrl: "https://upload.wikimedia.org/wikipedia/en/f/f9/Indian_Institute_of_Technology_Ropar_logo.png",
-    name: "IIT Ropar",
+    logoUrl: "https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png",
+    name: "GATech",
   },
 ];
 
