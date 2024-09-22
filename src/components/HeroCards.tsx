@@ -105,7 +105,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://youtube.com/@muenigma"
+              href="https://youtube.com/@mu-enigma"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
