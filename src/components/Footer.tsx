@@ -108,7 +108,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Enigma
+          &copy; 2024 Enigma, Mahindra University
         </h3>
       </section>
     </footer>
