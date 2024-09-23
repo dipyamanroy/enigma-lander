@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 interface SponsorProps {
   logoUrl: string; // URL for the logo image
   name: string;
@@ -41,13 +43,22 @@ export const Sponsors = () => {
         Past collaborations
       </h2>
 
-      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
+      <Marquee
+        gradient={false}
+        speed={50} // Adjust speed as needed
+        pauseOnHover={true}
+        className="flex items-center"
+        loop={0} // Ensure it loops continuously without large gaps
+      >
         {sponsors.map(({ logoUrl, name }: SponsorProps) => (
-          <div key={name} className="flex items-center gap-1 text-muted-foreground/60">
-            <img src={logoUrl} alt={`${name} logo`} className="h-20 w-21" /> {/* Adjust size as needed */}
+          <div
+            key={name}
+            className="flex items-center gap-16 px-8 text-muted-foreground/60" // Increase gap and add padding between logos
+          >
+            <img src={logoUrl} alt={`${name} logo`} className="h-20 w-21" />
           </div>
         ))}
-      </div>
+      </Marquee>
     </section>
   );
 };
