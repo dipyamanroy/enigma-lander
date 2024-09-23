@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* *=========== Default theme =========== */
-/* @layer base {
+/*  @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -67,7 +67,75 @@
   }
 } */
 
-/* *=========== Green theme =========== */
+
+/* *=========== Teal theme =========== */
+@layer base {
+  :root {
+    /* Light theme: White background + teal accent */
+    --background: 0 0% 100%; /* White */
+    --foreground: 222.2 84% 4.9%; /* Dark text */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 222.2 84% 4.9%; /* Dark text */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 222.2 84% 4.9%; /* Dark text */
+
+    --primary: 174 100% 29%; /* Teal accent */
+    --primary-foreground: 0 0% 100%; /* White text */
+
+    --secondary: 174 100% 29%; /* Teal */
+    --secondary-foreground: 0 0% 100%; /* White text */
+
+    --muted: 210 40% 96.1%; /* Light gray */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Muted text */
+
+    --accent: 174 100% 29%; /* Teal */
+    --accent-foreground: 0 0% 100%; /* White text */
+
+    --destructive: 0 84.2% 60.2%; /* Red */
+    --destructive-foreground: 0 0% 100%; /* White text */
+
+    --border: 214.3 31.8% 91.4%; /* Light gray */
+    --input: 214.3 31.8% 91.4%; /* Light gray */
+    --ring: 174 100% 29%; /* Teal ring */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark theme: Dark blue background + teal accent */
+    --background: 220 60% 7%; /* Dark blue */
+    --foreground: 210 40% 98%; /* Light text */
+
+    --card: 220 60% 7%; /* Dark blue */
+    --card-foreground: 210 40% 98%; /* Light text */
+
+    --popover: 220 60% 7%; /* Dark blue */
+    --popover-foreground: 210 40% 98%; /* Light text */
+
+    --primary: 174 100% 29%; /* Teal accent */
+    --primary-foreground: 210 40% 98%; /* Light text */
+
+    --secondary: 217.2 32.6% 17.5%; /* Dark teal */
+    --secondary-foreground: 210 40% 98%; /* Light text */
+
+    --muted: 217.2 32.6% 17.5%; /* Muted dark teal */
+    --muted-foreground: 215 20.2% 65.1%; /* Muted text */
+
+    --accent: 174 100% 29%; /* Teal accent */
+    --accent-foreground: 210 40% 98%; /* Light text */
+
+    --destructive: 0 62.8% 30.6%; /* Dark red */
+    --destructive-foreground: 210 40% 98%; /* Light text */
+
+    --border: 217.2 32.6% 17.5%; /* Dark teal */
+    --input: 217.2 32.6% 17.5%; /* Dark teal */
+    --ring: 174 100% 29%; /* Teal ring */
+  }
+}
+
+/* *=========== Green theme =========== 
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -113,7 +181,7 @@
     --input: 240 3.7% 15.9%;
     --ring: 142.4 71.8% 29.2%;
   }
-}
+} */
 
 @layer base {
   * {
