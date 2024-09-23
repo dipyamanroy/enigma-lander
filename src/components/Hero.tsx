@@ -21,13 +21,13 @@ export const Hero = () => {
           </h1>{" "}
           {" "}
           <h2 className="inline">
-            <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[#D247BF] to-primary text-transparent bg-clip-text">
               Enigma
             </span>{" "}
           </h2>
           <h3 className="text-4xl">
             We are {" "}
-            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+            <span className="inline bg-clip-text">
               Computer Science
             </span>{" "}
           </h3>
