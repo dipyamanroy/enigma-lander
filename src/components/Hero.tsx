@@ -12,7 +12,7 @@ export const Hero = () => {
           <span className="mr-2 text-primary">
             <Badge>Upcoming</Badge>
           </span>
-          <span> REBOOT Orientation, Sep 24 </span>
+          <span> REB⟳⟳T Orientation, Sep 24 </span>
         </Badge>
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
