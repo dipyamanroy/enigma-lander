@@ -105,7 +105,7 @@
   .dark {
     /* Dark theme: Darker black-brown background + orange accent */
     --background: 30 50% 3%; /* Darker black-brown */
-    --foreground: 30 100% 90%; /* Light orange text */
+    --foreground: 0 0% 100%; /* Light orange text */
 
     --card: 30 50% 3%; /* Darker black-brown */
     --card-foreground: 30 100% 90%; /* Light orange text */
@@ -120,7 +120,7 @@
     --secondary-foreground: 30 100% 90%; /* Light orange text */
 
     --muted: 30 60% 12%; /* Muted dark brown-orange */
-    --muted-foreground: 30 40% 65%; /* Muted orange text */
+    --muted-foreground: 0 0% 85%; /* Muted orange text */
 
     --accent: 30 100% 50%; /* Bright orange */
     --accent-foreground: 30 100% 90%; /* Light orange text */
