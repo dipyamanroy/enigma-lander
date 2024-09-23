@@ -5,24 +5,35 @@ html {
 /* HeroCards background shadow */
 .shadow {
   position: absolute;
-  background: hsl(var(--primary) / 0%);
+  background: hsl(var(--primary) / 50%);
   border-radius: 24px;
-  rotate: 35deg;
+  rotate: 0deg;
 
   width: 260px;
-  top: 200px;
-  height: 400px;
+  top: 260px;
+  height: 260px;
   filter: blur(150px);
-  animation: shadow-slide infinite 4s linear alternate;
+  animation: 
+    shadow-breathe 4s ease-in-out infinite alternate,
+    shadow-slide 15s linear infinite alternate;
+}
+
+@keyframes shadow-breathe {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
 }
 
 @keyframes shadow-slide {
   from {
-    background: hsl(var(--primary) / 20%);
     right: 460px;
   }
   to {
-    background: hsl(var(--primary) / 80%);
     right: 160px;
   }
 }
@@ -34,12 +45,10 @@ html {
 
   @keyframes shadow-slide {
     from {
-      background: hsl(var(--primary) / 20%);
-      right: 460px;
+      right: 400px;
     }
     to {
-      background: hsl(var(--primary) / 50%);
-      right: 160px;
+      right: 200px;
     }
   }
 }
@@ -52,13 +61,22 @@ html {
     filter: blur(60px);
   }
 
+  @keyframes shadow-breathe {
+    from {
+      transform: scale(1);
+      opacity: 0.3;
+    }
+    to {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+  }
+
   @keyframes shadow-slide {
     from {
-      background: hsl(var(--primary) / 20%);
       right: 280px;
     }
     to {
-      background: hsl(var(--primary) / 30%);
       right: 100px;
     }
   }
