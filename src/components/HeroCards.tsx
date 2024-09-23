@@ -57,7 +57,7 @@ export const HeroCards = () => {
           <div>
           <a
               rel="noreferrer noopener"
-              href="https://discord.gg/5eJwmkV"
+              href="https://discord.gg/3ez8adPJ67"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

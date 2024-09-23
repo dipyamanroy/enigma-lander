@@ -36,7 +36,7 @@ export const Hero = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://discord.gg/5eJwmkV"
+            href="https://discord.gg/3ez8adPJ67"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
