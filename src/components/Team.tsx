@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Facebook, Instagram, Linkedin, XIcon } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 interface TeamProps {
