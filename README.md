@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<div align="center">
   <img src="src/assets/icon_trans.png" width="50" alt="Enigma Icon">
-  <h1>Enigma</h1>
+  <h1>Enigma Landing page</h1>
   <p>Landing page for Enigma, the Computer Science Club, Mahindra University. Built with</p>
   <p>
     <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white" alt="shadcn/ui">
