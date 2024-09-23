@@ -67,11 +67,10 @@
   }
 } */
 
-
-/* *=========== Teal theme =========== */
+/* *=========== Orange theme =========== */
 @layer base {
   :root {
-    /* Light theme: White background + teal accent */
+    /* Light theme: White background + orange accent */
     --background: 0 0% 100%; /* White */
     --foreground: 222.2 84% 4.9%; /* Dark text */
 
@@ -81,16 +80,16 @@
     --popover: 0 0% 100%; /* White */
     --popover-foreground: 222.2 84% 4.9%; /* Dark text */
 
-    --primary: 174 100% 29%; /* Teal accent */
+    --primary: 30 100% 50%; /* Orange */
     --primary-foreground: 0 0% 100%; /* White text */
 
-    --secondary: 174 100% 29%; /* Teal */
-    --secondary-foreground: 0 0% 100%; /* White text */
+    --secondary: 30 100% 50%; /* Orange */
+    --secondary-foreground: 222.2 84% 4.9%; /* Dark text */
 
     --muted: 210 40% 96.1%; /* Light gray */
     --muted-foreground: 215.4 16.3% 46.9%; /* Muted text */
 
-    --accent: 174 100% 29%; /* Teal */
+    --accent: 30 100% 50%; /* Orange */
     --accent-foreground: 0 0% 100%; /* White text */
 
     --destructive: 0 84.2% 60.2%; /* Red */
@@ -98,42 +97,109 @@
 
     --border: 214.3 31.8% 91.4%; /* Light gray */
     --input: 214.3 31.8% 91.4%; /* Light gray */
-    --ring: 174 100% 29%; /* Teal ring */
+    --ring: 30 100% 50%; /* Orange ring */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Dark theme: Dark blue background + teal accent */
-    --background: 220 60% 7%; /* Dark blue */
-    --foreground: 210 40% 98%; /* Light text */
+    /* Dark theme: Darker black-brown background + orange accent */
+    --background: 30 50% 3%; /* Darker black-brown */
+    --foreground: 30 100% 90%; /* Light orange text */
 
-    --card: 220 60% 7%; /* Dark blue */
-    --card-foreground: 210 40% 98%; /* Light text */
+    --card: 30 50% 3%; /* Darker black-brown */
+    --card-foreground: 30 100% 90%; /* Light orange text */
 
-    --popover: 220 60% 7%; /* Dark blue */
-    --popover-foreground: 210 40% 98%; /* Light text */
+    --popover: 30 50% 3%; /* Darker black-brown */
+    --popover-foreground: 30 100% 90%; /* Light orange text */
 
-    --primary: 174 100% 29%; /* Teal accent */
-    --primary-foreground: 210 40% 98%; /* Light text */
+    --primary: 30 100% 50%; /* Bright orange */
+    --primary-foreground: 30 100% 90%; /* Light orange text */
 
-    --secondary: 217.2 32.6% 17.5%; /* Dark teal */
-    --secondary-foreground: 210 40% 98%; /* Light text */
+    --secondary: 30 60% 12%; /* Dark brown-orange */
+    --secondary-foreground: 30 100% 90%; /* Light orange text */
 
-    --muted: 217.2 32.6% 17.5%; /* Muted dark teal */
-    --muted-foreground: 215 20.2% 65.1%; /* Muted text */
+    --muted: 30 60% 12%; /* Muted dark brown-orange */
+    --muted-foreground: 30 40% 65%; /* Muted orange text */
 
-    --accent: 174 100% 29%; /* Teal accent */
-    --accent-foreground: 210 40% 98%; /* Light text */
+    --accent: 30 100% 50%; /* Bright orange */
+    --accent-foreground: 30 100% 90%; /* Light orange text */
 
     --destructive: 0 62.8% 30.6%; /* Dark red */
-    --destructive-foreground: 210 40% 98%; /* Light text */
+    --destructive-foreground: 30 100% 90%; /* Light orange text */
 
-    --border: 217.2 32.6% 17.5%; /* Dark teal */
-    --input: 217.2 32.6% 17.5%; /* Dark teal */
-    --ring: 174 100% 29%; /* Teal ring */
+    --border: 30 60% 12%; /* Dark brown-orange */
+    --input: 30 60% 12%; /* Dark brown-orange */
+    --ring: 30 100% 50%; /* Orange ring */
   }
 }
+
+
+/* *=========== Teal theme =========== */
+/* @layer base {
+  :root {
+    --background: 0 0% 100%; 
+    --foreground: 222.2 84% 4.9%; 
+
+    --card: 0 0% 100%; 
+    --card-foreground: 222.2 84% 4.9%; 
+
+    --popover: 0 0% 100%; 
+    --popover-foreground: 222.2 84% 4.9%; 
+
+    --primary: 174 100% 29%; 
+    --primary-foreground: 0 0% 100%; 
+
+    --secondary: 174 100% 29%; 
+    --secondary-foreground: 0 0% 100%; 
+
+    --muted: 210 40% 96.1%; 
+    --muted-foreground: 215.4 16.3% 46.9%; 
+
+    --accent: 174 100% 29%; 
+    --accent-foreground: 0 0% 100%; 
+
+    --destructive: 0 84.2% 60.2%; 
+    --destructive-foreground: 0 0% 100%; 
+
+    --border: 214.3 31.8% 91.4%; 
+    --input: 214.3 31.8% 91.4%; 
+    --ring: 174 100% 29%; 
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    
+    --background: 220 60% 7%; 
+    --foreground: 210 40% 98%; 
+
+    --card: 220 60% 7%; 
+    --card-foreground: 210 40% 98%; 
+
+    --popover: 220 60% 7%; 
+    --popover-foreground: 210 40% 98%; 
+
+    --primary: 174 100% 29%; 
+    --primary-foreground: 210 40% 98%; 
+
+    --secondary: 217.2 32.6% 17.5%; 
+    --secondary-foreground: 210 40% 98%; 
+
+    --muted: 217.2 32.6% 17.5%; 
+    --muted-foreground: 215 20.2% 65.1%; 
+
+    --accent: 174 100% 29%; 
+    --accent-foreground: 210 40% 98%; 
+
+    --destructive: 0 62.8% 30.6%; 
+    --destructive-foreground: 210 40% 98%; 
+
+    --border: 217.2 32.6% 17.5%; 
+    --input: 217.2 32.6% 17.5%; 
+    --ring: 174 100% 29%; 
+  }
+} */
 
 /* *=========== Green theme =========== 
 @layer base {
