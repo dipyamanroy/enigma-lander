@@ -6,7 +6,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, XIcon } from "lucide-react";
+import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 interface TeamProps {
   imageUrl: string;
@@ -26,6 +27,18 @@ const teamList: TeamProps[] = [
     name: "Ponnam Adithya Sai",
     position: "President",
     socialNetworks: [ 
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/awwtithya/",
+      },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/ponnam-adithya-sai/",
+      },
+      {
+        name: "Github",
+        url: "https://github.com/adiavolo",
+      }
     ],
   },
   {
@@ -33,6 +46,22 @@ const teamList: TeamProps[] = [
     name: "Cherith Reddy Yerabolu",
     position: "Vice President",
     socialNetworks: [
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/cherith_reddy/",
+      },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/cherith-reddy/",
+      },
+      {
+        name: "X",
+        url: "https://x.com/CherithReddyY",
+      },
+      {
+        name: "Github",
+        url: "https://github.com/ycherithreddy",
+      }
     ],
   },
   {
@@ -40,7 +69,10 @@ const teamList: TeamProps[] = [
     name: "Aarnav Tandava",
     position: "Logistics and Committees Head",
     socialNetworks: [
-      
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/aarnav-tandava-730369322/",
+      }
     ],
   },
   {
@@ -48,7 +80,14 @@ const teamList: TeamProps[] = [
     name: "H Ravi Sankar",
     position: "AI / ML Head",
     socialNetworks: [
-      
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/ravih.rs",
+      },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/hoskote-ravi-sankar-b5807b271",
+      }
     ],
   },
   {
@@ -56,7 +95,10 @@ const teamList: TeamProps[] = [
     name: "Sai Tarun Vemuganti",
     position: "CompCoding Head",
     socialNetworks: [
-      
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/bot.tarun/",
+      }
     ],
   },
   {
@@ -64,7 +106,18 @@ const teamList: TeamProps[] = [
     name: "Anirudh Chamarthi",
     position: "SysAdmin",
     socialNetworks: [
-      
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/anirudh_chamarthi_1729/",
+      },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/anirudh-chamarthi-43214b26b/",
+      },
+      {
+        name: "Github",
+        url: "https://github.com/DrResPekt",
+      }
     ],
   },
   {
@@ -80,7 +133,10 @@ const teamList: TeamProps[] = [
     name: "Pericherla Tejas Varma",
     position: "GameDev Head",
     socialNetworks: [
-      
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/pericherla-tejas-varma-a488b930b/"
+      }
     ],
   },
   {
@@ -88,7 +144,10 @@ const teamList: TeamProps[] = [
     name: "Rishi Varma Vegesna",
     position: "Content Head",
     socialNetworks: [
-      
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/vrishivarma",
+      }
     ],
   },
   {
@@ -96,7 +155,14 @@ const teamList: TeamProps[] = [
     name: "Geethika Choudhary Yadlapalli",
     position: "Marketing & Design Head",
     socialNetworks: [
-      
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/geethu_05.05/",
+      },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/geethika-y"
+      }
     ],
   },
 ];
@@ -112,6 +178,12 @@ export const Team = () => {
 
       case "Instagram":
         return <Instagram size="20" />;
+      
+      case "Github":
+        return <GitHubLogoIcon className="w-5 h-5" />;
+
+      case "X":
+        return <TwitterLogoIcon className="w-5 h-5" />;
     }
   };
 
