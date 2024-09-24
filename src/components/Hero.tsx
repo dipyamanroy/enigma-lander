@@ -10,7 +10,7 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <Badge variant="outline" className="text-sm py-2">
           <span className="mr-2 text-primary">
-            <Badge>Upcoming</Badge>
+            <Badge>Today</Badge>
           </span>
           <span> REBOOT Orientation, Sep 24 </span>
         </Badge>
