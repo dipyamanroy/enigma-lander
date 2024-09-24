@@ -8,11 +8,14 @@
 }
 
 .intro {
+    text-align: center;
     margin-left: 5vh;
     margin-right: 3vh;
     margin-top: 5vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro p {
@@ -48,7 +51,6 @@
 }
 
 .verify {
-    font-family: "Montserrat", cursive;
     color: red;
     font-size: 40px;
     text-align: center;
