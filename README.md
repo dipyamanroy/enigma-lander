@@ -17,6 +17,10 @@
 
 <a href="https://mu-enigma.org" target="_blank">Visit the site</a>
 
+## Contents
+- [How to install](#how-to-install)
+- [How to contribute](#how-to-contribute)
+
 ## How to install
 
 1. Clone this repository:
@@ -43,3 +47,11 @@ npm install
 npm run dev
 ```
 
+## How to contribute
+1. Switch to the `dev` branch.
+
+2. Fork the repository.
+
+3. Make changes to the forked repository.
+
+4. Submit a pull request, and ensure Vecel's preview deployment is passing. Here's a resource on how to write a <a href="https://github.blog/developer-skills/github/how-to-write-the-perfect-pull-request/" target="_blank">perfect pull request</a>.
