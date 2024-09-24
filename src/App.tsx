@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
 import { FAQ } from "./components/FAQ";
 import { Features } from "./components/Features";
@@ -8,23 +9,36 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
+import Egg from "./components/Egg";
 // import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Sponsors />
-      <About />
-      <Features />
-      <Services />
-      <Team />
-      <FAQ />
-      <Footer />
+    <Router>
       <ScrollToTop />
-    </>
+      <Routes>
+        {/* Route only for /egg */}
+        <Route path="/egg" element={<Egg />} />
+        {/* Default layout for other components */}
+        <Route
+          path="*"
+          element={
+            <>
+              <Navbar />
+              <Hero />
+              <Sponsors />
+              <About />
+              <Features />
+              <Services />
+              <Team />
+              <FAQ />
+              <Footer />
+            </>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
