@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
-body {
-    background-color: rgb(26, 20, 20);
-    font-family: "Inconsolata", monospace;
-}
-
 .main-content {
     margin-left: auto;
     margin-right: auto;
