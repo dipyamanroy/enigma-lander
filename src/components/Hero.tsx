@@ -10,9 +10,9 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <Badge variant="outline" className="text-sm py-2">
           <span className="mr-2 text-primary">
-            <Badge variant="destructive">Complete</Badge>
+            <Badge variant="live">Live</Badge>
           </span>
-          <span> REBOOT Orientation, Sep 24 </span>
+          <span> CompCoding Kickoff, Sep 28 </span>
         </Badge>
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
