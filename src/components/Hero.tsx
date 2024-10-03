@@ -13,7 +13,7 @@ export const Hero = () => {
             <Badge variant="live">Live</Badge>
           </span>
           <img
-            src="../src/assets/hacktoberfest.png"
+            src="https://pbs.twimg.com/profile_images/1831003149072535554/leInyk8A_400x400.jpg"
             alt="Hacktoberfest 2024"
             className="h-6 w-auto mr-2"
           />
