@@ -9,7 +9,6 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
-import Egg from "./components/Egg";
 // import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 
@@ -18,9 +17,6 @@ function App() {
     <Router>
       <ScrollToTop />
       <Routes>
-        {/* Route only for /egg */}
-        <Route path="/egg" element={<Egg />} />
-        {/* Default layout for other components */}
         <Route
           path="*"
           element={
