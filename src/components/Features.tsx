@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
-import { Link } from 'react-router-dom';
 
 interface FeatureProps {
   icon: JSX.Element;
