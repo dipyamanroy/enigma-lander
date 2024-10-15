@@ -33,6 +33,9 @@ export function ThemeProvider({
   useEffect(() => {
     const root = window.document.documentElement;
 
+    // Add Inter font class to the root element
+    root.classList.add("font-inter");
+
     root.classList.remove("light", "dark");
 
     if (theme === "system") {
