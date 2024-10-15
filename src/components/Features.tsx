@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
-import { Link } from 'react-router-dom';
 
 interface FeatureProps {
   icon: JSX.Element;
@@ -43,11 +42,9 @@ export const Features = () => {
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
         What {" "}
-        <Link to="/egg">
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
             We Do{" "}
           </span>
-        </Link>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Here's what to look for when you join Enigma or attend an event

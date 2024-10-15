@@ -12,16 +12,9 @@ export const Hero = () => {
           <span className="mr-2 text-primary">
             <Badge variant="live">Live</Badge>
           </span>
-          <img
-            src="src/assets/hacktoberfest.png"
-            alt="Hacktoberfest 2024"
-            className="h-6 w-auto mr-2"
-          />
-          Hacktoberfest 2024
+          Game Genesis
           <span className="ml-2">
-            <a href="https://hacktoberfest.com/" target="_blank" rel="noopener noreferrer">
-              <Badge variant="secondary">Find out more</Badge>
-            </a>
+              <Badge variant="secondary">E-LT2</Badge>
           </span>
         </Badge>
         <main className="text-5xl md:text-6xl font-bold">
