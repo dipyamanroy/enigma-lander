@@ -68,75 +68,74 @@
 } */
 
 /* *=========== Orange theme =========== */
-@layer base {
+/* @layer base {
   :root {
-    /* Light theme: White background + orange accent */
-    --background: 0 0% 100%; /* White */
-    --foreground: 222.2 84% 4.9%; /* Dark text */
+    --background: 0 0% 100%; 
+    --foreground: 222.2 84% 4.9%; 
 
-    --card: 0 0% 100%; /* White */
-    --card-foreground: 222.2 84% 4.9%; /* Dark text */
+    --card: 0 0% 100%; 
+    --card-foreground: 222.2 84% 4.9%; 
 
-    --popover: 0 0% 100%; /* White */
-    --popover-foreground: 222.2 84% 4.9%; /* Dark text */
+    --popover: 0 0% 100%; 
+    --popover-foreground: 222.2 84% 4.9%; 
 
-    --primary: 30 100% 50%; /* Orange */
-    --primary-foreground: 0 0% 100%; /* White text */
+    --primary: 30 100% 50%; 
+    --primary-foreground: 0 0% 100%; 
 
-    --secondary: 30 100% 50%; /* Orange */
-    --secondary-foreground: 222.2 84% 4.9%; /* Dark text */
+    --secondary: 30 100% 50%; 
+    --secondary-foreground: 222.2 84% 4.9%; 
 
-    --muted: 210 40% 96.1%; /* Light gray */
-    --muted-foreground: 215.4 16.3% 46.9%; /* Muted text */
+    --muted: 210 40% 96.1%; 
+    --muted-foreground: 215.4 16.3% 46.9%; 
 
-    --accent: 30 100% 50%; /* Orange */
-    --accent-foreground: 0 0% 100%; /* White text */
+    --accent: 30 100% 50%; 
+    --accent-foreground: 0 0% 100%; 
 
-    --destructive: 0 84.2% 60.2%; /* Red */
-    --destructive-foreground: 0 0% 100%; /* White text */
+    --destructive: 0 84.2% 60.2%; 
+    --destructive-foreground: 0 0% 100%; 
 
-    --border: 214.3 31.8% 91.4%; /* Light gray */
-    --input: 214.3 31.8% 91.4%; /* Light gray */
-    --ring: 30 100% 50%; /* Orange ring */
+    --border: 214.3 31.8% 91.4%; 
+    --input: 214.3 31.8% 91.4%; 
+    --ring: 30 100% 50%; 
 
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Dark theme: Darker black-brown background + orange accent */
-    --background: 30 50% 3%; /* Darker black-brown */
-    --foreground: 0 0% 100%; /* Light orange text */
+    
+    --background: 30 50% 3%; 
+    --foreground: 0 0% 100%; 
 
-    --card: 30 50% 3%; /* Darker black-brown */
-    --card-foreground: 30 100% 90%; /* Light orange text */
+    --card: 30 50% 3%; 
+    --card-foreground: 30 100% 90%; 
 
-    --popover: 30 50% 3%; /* Darker black-brown */
-    --popover-foreground: 30 100% 90%; /* Light orange text */
+    --popover: 30 50% 3%; 
+    --popover-foreground: 30 100% 90%; 
 
-    --primary: 30 100% 50%; /* Bright orange */
-    --primary-foreground: 30 100% 90%; /* Light orange text */
+    --primary: 30 100% 50%; 
+    --primary-foreground: 30 100% 90%; 
 
-    --secondary: 30 60% 12%; /* Dark brown-orange */
-    --secondary-foreground: 30 100% 90%; /* Light orange text */
+    --secondary: 30 60% 12%; 
+    --secondary-foreground: 30 100% 90%; 
 
-    --muted: 30 60% 12%; /* Muted dark brown-orange */
-    --muted-foreground: 0 0% 85%; /* Muted orange text */
+    --muted: 30 60% 12%; 
+    --muted-foreground: 0 0% 85%; 
 
-    --accent: 30 100% 50%; /* Bright orange */
-    --accent-foreground: 30 100% 90%; /* Light orange text */
+    --accent: 30 100% 50%; 
+    --accent-foreground: 30 100% 90%; 
 
-    --destructive: 0 62.8% 30.6%; /* Dark red */
-    --destructive-foreground: 30 100% 90%; /* Light orange text */
+    --destructive: 0 62.8% 30.6%; 
+    --destructive-foreground: 30 100% 90%; 
 
-    --border: 30 60% 12%; /* Dark brown-orange */
-    --input: 30 60% 12%; /* Dark brown-orange */
-    --ring: 30 100% 50%; /* Orange ring */
+    --border: 30 60% 12%; 
+    --input: 30 60% 12%; 
+    --ring: 30 100% 50%; 
   }
-}
+} */
 
 
 /* *=========== Teal theme =========== */
-/* @layer base {
+@layer base {
   :root {
     --background: 0 0% 100%; 
     --foreground: 222.2 84% 4.9%; 
@@ -199,7 +198,7 @@
     --input: 217.2 32.6% 17.5%; 
     --ring: 174 100% 29%; 
   }
-} */
+}
 
 /* *=========== Green theme =========== 
 @layer base {
